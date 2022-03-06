@@ -9,16 +9,16 @@
 </head>
 <body>
     <header class="header">    
-            <nav class="navbar">
-                <div class="logo">
-                    <img src="./imgs/tomato.jpg" alt="Picture of tomatos">
-                </div>
-                <ul class="nav-links">
-                        <li><a href="#">Favorite Recipes</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>    
+        <div class="navbar">
+            <div class="logo">
+                <img src="./imgs/tomato.jpg" alt="Picture of tomatos">
+            </div>
+        <ul class="nav-links">
+            <li><a href="#">Favorite Recipes</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </div>
     </header>
     <section class="section1">
         <div class="main">
@@ -31,10 +31,22 @@
     <section class="section2">
         <h2 class="section-title">Here are some of the top recipes here!</h2>
         <div class="section-pics">
-            <img class="section-img" src="./imgs/peach.jpg" alt="Peach Cobbler">
-            <img class="section-img" src="./imgs/spaghetti.jpg" alt="Spaghetti">
-            <img class="section-img" src="./imgs/pecanpie.jpg" alt="Pecan pie">
-            <img class="section-img" src="./imgs/strawberrysc.jpg" alt="Strawberry Shortcake">
+            <div class="section-container">
+                <img class="section-img" src="./imgs/peach.jpg" alt="Peach Cobbler">
+                <p>This is some peach cobbler.</p>
+            </div>
+            <div class="section-container">
+                <img class="section-img" src="./imgs/spaghetti.jpg" alt="Spaghetti">
+                <p>Grandma's spaghetti</p>
+            </div>
+            <div class="section-container">   
+                <img class="section-img" src="./imgs/pecanpie.jpg" alt="Pecan pie">
+                <p>Pecan pie</p>
+            </div> 
+            <div class="section-container">
+                <img class="section-img" src="./imgs/strawberrysc.jpg" alt="Strawberry Shortcake">
+                <P>Strawberry shortcake</P>
+            </div> 
         </div>
     </section>
     <section class="section3">
@@ -42,9 +54,13 @@
     </section>
     <section class="section4">
         <div class="signup-sec">
-            <h3>Signup here</h3>
+            <div class="box">
+            <h2>WE NEED MORE RECIPES!!</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
-            <button class="button2" >Sign Up</button>  
+            </div>
+            <div class="button-div">    
+                <button class="button2" >Sign Up</button>
+            </div>        
         </div>
     </section>
     <footer class="footer">The Odin Project</footer>   
