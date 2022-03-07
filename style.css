@@ -1,8 +1,10 @@
 * {
     box-sizing: border-box;
-    /* padding: 0;
-    margin: 0; */
-    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+    /* Use outline to "visualize" flexbox container
+    border: 1px solid red;
+    */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
@@ -16,14 +18,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
 }
-.navbar img {
-    height: 90px;
-    width: 80px;
+.logo {
+    font: 26px #f9faf8;
+    font-weight: bold;
 }
 .navbar  {
     display: flex;
+    margin-top: 30px;
     width: 1070px; 
     justify-content: space-between;
 }
@@ -71,7 +73,7 @@
     background-color: #3882f6;
     color: white;
     font-weight: bold;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .button1 {
     height: 40px;
@@ -100,6 +102,7 @@
 }
 .section-title {
     font: 36px extra-bold #1f2937;
+    margin-top: 45px;
 }
 .section-pics {
     display: flex;
@@ -125,11 +128,37 @@
 }
 .section3 {
     background-color: #e5e7eb;
-    font: 36px light italic #1f2937;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.section3-box {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 1px 0 1px;
+    padding: 0;
+    width: 800px;
+    height: 200px;
+}
+.box-p1 {
+    font-size: 30px;
+    margin: 0;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+
+}
+.box-p2 {
+    align-self: flex-end;
+    font-weight: bold;
+    margin-right: 50px;
 
 }
 .section4 {
-    margin: 130px;
+    margin: 130px 230px;
     
 }
 .signup-sec {
@@ -138,7 +167,17 @@
     border-radius: 15px;
     height: 150px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     /* width: 400px; */
+}
+.button2 {
+    width: 120px;
+    height: 35px;
+}
+.footer {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
 }
